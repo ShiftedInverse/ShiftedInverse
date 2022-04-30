@@ -20,12 +20,19 @@ project
 ```
 
 `./Code` includes the codes for (Approx)ShiftedInverse, and `./Code/Baseline` includes the codes for the baselines, including ZetaSQL, R2T and RM.
+
 `./Data/Graph` and `./Data/TPCH` store the relations for the graph and TPCH datasets. Due to the size of the files, the relations are not uploaded here, and can be found at [*To be uploaded*].
+
 `./Exponential` stores the computation results of \check{f}(V,j)'s.
+
 `./Information/Graph` and `./Information/TPCH` store the extracted information of the queries for the graph and TPCH datasets. The information is also not uploaded, and can be downloaded at [*To be uploaded*].
+
 `./Query` stores the queries used in the experiments.
+
 `./Result` stores the results of the experiments.
+
 `./Script` stores the scripts used in the experiments.
+
 `./Temp` is used to store tempoaray files generated in the experiments.
 
 ## Prerequisites
