@@ -56,13 +56,50 @@ The framework is built on [Python3.7](https://www.python.org/downloads/release/p
 A simple example is included here on how the framework works.
 
 ### Step 1: Create database and import data.
-[*Todo*].
+The first step is to create a database for the graph dataset and import the relations. To create the database, run
+```
+createdb Gnutella;
+```
+To import the relations to the database, go to `./Code/` and run `ProcessDataGraph.py` with
+```
+python ProcessDataGraph.py -d Gnutella -D Gnutella -m 0 -e 0>"
+```
+ - `-d`: the name of the folder containing all the relations;
+ - `-D`: the name of the database;
+ - `-m`: 0 for import and 1 for clean;
+ - `-e`: 0 for undirected and 1 for directed;
 
 ### Step 2: Extract the information.
-[*Todo*].
+The second step is to extract the information, i.e., the relationship between the users and the tuples, for the given function and dataset. For the particular example here, run
+```
+python ExtractInformation.py -D Gnutella -Q ../Query/Graph/edge.txt -O ../Information/Graph/Gnutella/edge.txt
+```
+ - `-D`: the name of the database;
+ - `-Q`: the path for the query;
+ - `-O`: the path for the output information;
 
 ### Step 3: Compute \check{f}(V,j)'s.
-[*Todo*].
+The third step is to compute the \check{f}(V,j)'s as stated in our algorithm by running
+```
+python ComputeR_Sum_Sj.py -I ../Information/Graph/Gnutella/edge.txt -e 1 -b 0.1 -D 8011008 -d 10 -O ../Exponential/Graph/Gnutella/Sum_Sj/edge_1.txt -p 10
+```
+ - `-I`: the path for the information;
+ - `-e`: the privacy budget \varepsilon;
+ - `-b`: the failure probability \beta;
+ - `-D`: the upper bound D;
+ - `-d`: the error level of the output;
+ - `-O`: the path for the output \check{f}(V,j)'s;
+ - `-p`: the number of processors;
 
 ### Step 4: Sample an output.
-[*Todo*].
+Finally, we can sample an output using the \check{f}(V,j)'s. More specifically, run
+```
+python Exponential.py -I ../Exponential/Graph/Gnutella/Sum_Sj/edge_1.txt -e 1 -b 0.1 -D 8011008 -d 10
+```
+ - `-I`: the path for the information;
+ - `-e`: the privacy budget \varepsilon;
+ - `-b`: the failure probability \beta;
+ - `-D`: the upper bound D;
+ - `-d`: the error level of the output;
+
+Note that the value for `-e`, `-b`, `-D`, `-d` should be the same for step 3 and 4 to ensure the mechanism satisfies DP.

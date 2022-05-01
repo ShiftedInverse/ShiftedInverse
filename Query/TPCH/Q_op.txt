@@ -1,0 +1,3 @@
+select o_orderpriority, c_custkey
+from customer, orders
+where c_custkey=o_custkey;

@@ -1,0 +1,4 @@
+select count(*), id
+from edge, node
+where from_id=id
+group by id;

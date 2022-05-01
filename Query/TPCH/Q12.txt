@@ -1,0 +1,3 @@
+select 1, o_orderkey
+from orders, lineitem
+where o_orderkey = l_orderkey;

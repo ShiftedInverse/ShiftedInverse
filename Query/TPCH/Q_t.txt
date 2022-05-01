@@ -1,0 +1,3 @@
+select l_tax, s_suppkey
+from supplier, partsupp, lineitem
+where s_suppkey = l_suppkey and ps_suppkey = l_suppkey and ps_partkey = l_partkey;

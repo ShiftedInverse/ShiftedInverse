@@ -1,0 +1,2 @@
+Bitcoin weightededge_median_0.5 1 231.28475301265718 0.0 0.0 0.0
+Bitcoin weightededge_median_0.75 1 55.768635272979736 0.0 0.0 0.0

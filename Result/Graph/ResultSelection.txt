@@ -1,0 +1,14 @@
+Bitcoin weightededge_max 0.125 0.24381351470947266 0.0 0.0 0.0
+Bitcoin weightededge_max 0.25 0.24267041683197021 0.0 0.0 0.0
+Bitcoin weightededge_max 0.5 0.23977816104888916 0.0 0.0 0.0
+Bitcoin weightededge_max 1 0.2437899589538574 0.0 0.0 0.0
+Bitcoin weightededge_max 2 0.24365417957305907 0.0 0.0 0.0
+Bitcoin weightededge_max 4 0.2425983428955078 0.0 0.0 0.0
+Bitcoin weightededge_max 8 0.2427670478820801 0.0 0.0 0.0
+Bitcoin weightededge_min 0.125 0.2448153018951416 0.0 0.0 0.0
+Bitcoin weightededge_min 0.25 0.24284980297088624 0.0 0.0 0.0
+Bitcoin weightededge_min 0.5 0.23667290210723876 0.0 0.0 0.0
+Bitcoin weightededge_min 1 0.24359629154205323 0.0 0.0 0.0
+Bitcoin weightededge_min 2 0.24246301651000976 0.0 0.0 0.0
+Bitcoin weightededge_min 4 0.24341046810150146 0.0 0.0 0.0
+Bitcoin weightededge_min 8 0.2430500268936157 0.0 0.0 0.0
