@@ -62,7 +62,7 @@ createdb Gnutella;
 ```
 To import the relations to the database, go to `./Code/` and run `ProcessDataGraph.py` with
 ```
-python ProcessDataGraph.py -d Gnutella -D Gnutella -m 0 -e 0>"
+python ProcessDataGraph.py -d Gnutella -D Gnutella -m 0 -e 0
 ```
  - `-d`: the name of the folder containing all the relations;
  - `-D`: the name of the database;
