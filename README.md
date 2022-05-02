@@ -53,7 +53,7 @@ The framework is built on [Python3.7](https://www.python.org/downloads/release/p
 * `time`
 
 ## Demo Example
-A simple example is included here on how the framework works.
+A simple example is included here on how the framework works. The example computes the number of edges in the Gnutella dataset.
 
 ### Step 1: Create database and import data.
 The first step is to create a database for the graph dataset and import the relations. To create the database, run
