@@ -21,11 +21,11 @@ project
 
 `./Code` includes the codes for (Approx)ShiftedInverse, and `./Code/Baseline` includes the codes for the baselines, including ZetaSQL, R2T and RM.
 
-`./Data/Graph` and `./Data/TPCH` store the relations for the graph and TPCH datasets. Due to the size of the files, the relations are not uploaded here, and can be found at https://drive.google.com/file/d/1sggYfb5Cf3hxlWd7d-RmQNIWsAmntWqK/view?usp=sharing and https://drive.google.com/file/d/1hXTv24oAi56Ax0gdTQo4Vvx1ZzSg0Kz1/view?usp=sharing.
+`./Data/Graph` and `./Data/TPCH` store the relations for the graph and TPCH datasets. Due to the size of the files, the relations are not uploaded here, and can be found at [Graph](https://drive.google.com/file/d/1sggYfb5Cf3hxlWd7d-RmQNIWsAmntWqK/view?usp=sharing) and [TPCH](https://drive.google.com/file/d/1hXTv24oAi56Ax0gdTQo4Vvx1ZzSg0Kz1/view?usp=sharing).
 
 `./Exponential` stores the computation results of \check{f}(V,j)'s.
 
-`./Information/Graph` and `./Information/TPCH` store the extracted information of the queries for the graph and TPCH datasets. The information is also not uploaded, and can be downloaded at https://drive.google.com/file/d/1CIWJlquFMx_hW-30Yxl68WtKFUmAub1U/view?usp=sharing and https://drive.google.com/file/d/18ZbpVyxOMM7tKmi54qBf44BUTgfboXmI/view?usp=sharing.
+`./Information/Graph` and `./Information/TPCH` store the extracted information of the queries for the graph and TPCH datasets. The information is also not uploaded, and can be downloaded at [Graph](https://drive.google.com/file/d/1CIWJlquFMx_hW-30Yxl68WtKFUmAub1U/view?usp=sharing) and [TPCH](https://drive.google.com/file/d/18ZbpVyxOMM7tKmi54qBf44BUTgfboXmI/view?usp=sharing).
 
 `./Query` stores the queries used in the experiments.
 
